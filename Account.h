@@ -10,6 +10,7 @@ private:
 	bool flag = false;
 	std::vector<Money> withdrawls;
 	std::vector<Money> deposits;
+	std::vector<Money> initalDeposit;
 	Money currentBal {};
 
 public:
