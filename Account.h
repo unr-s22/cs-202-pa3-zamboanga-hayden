@@ -4,6 +4,7 @@
 #define CODE2_ACCOUNT_H
 #include <iostream>
 #include <vector>
+#include "Money.h"
 class Account {
 private:
 	bool flag = false;

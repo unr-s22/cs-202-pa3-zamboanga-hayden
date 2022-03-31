@@ -1,4 +1,4 @@
-pa3: main.o Acount.o Money.o
+pa3: main.o Account.o Money.o
 	g++ -std=c++11 -o pa3 Account.o Money.o main.o
 
 main.o: main.cpp

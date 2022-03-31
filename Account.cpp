@@ -18,10 +18,10 @@ void Account::makeWithdrawl(Money &money) {
 
 Money* Account::returnCurrentBal() {
 	if (flag == true) {
-		for (i = 0; i < deposits.size(); i++) {
+		for (int i = 0; i < deposits.size(); i++) {
 			currentBal = currentBal + deposits.size[i]
 		}
-		for (j = 0; j < withdrawls.size(); j++) {
+		for (int j = 0; j < withdrawls.size(); j++) {
 			currentBal = currentBal - withdrawls.size[j]
 		}
 		flag = false;
